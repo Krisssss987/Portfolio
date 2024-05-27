@@ -24,3 +24,4 @@ yarn-error.log*
 node_modules
 .env.local
 .next
+/node_modules
