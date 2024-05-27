@@ -117,7 +117,7 @@ export default function SkillsMobile({ mobileSkillsContainerRef, mobileSkillsSec
 			</div>
 
 			<div className={styles.imageSection}>
-				<Image src="/home-banner.jpeg" layout="fill" objectFit="cover" alt="My hand" objectPosition="left" />
+				<Image src="/home-hand.jpeg" layout="fill" objectFit="cover" alt="My hand" objectPosition="left" />
 			</div>
 		</>
 	);
