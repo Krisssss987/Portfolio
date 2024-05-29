@@ -13,6 +13,12 @@ const metadata = {
 		url: `${BASE_URL}/projects`,
 		image: `${BASE_URL}/images/covers/projects.png`,
 	},
+	notfound: {
+		title: "Krishna Lokhande: Lost",
+		description: "404 Page not found, please go home ",
+		url: `${BASE_URL}/lost`,
+		image: `${BASE_URL}/images/covers/not-found.png`,
+	},
 	singleproject: ({ id }: { id: string }) => {
 		const project = PROJECTS.find((item) => item.id === id);
 
