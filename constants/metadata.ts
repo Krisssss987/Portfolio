@@ -4,7 +4,7 @@ const metadata = {
 	home: {
 		title: "Krishna Lokhande: Software Developer (Full Stack Developer)",
 		description: `Krishna Lokhande is a Software Developer.`,
-		url: `${BASE_URL}` || `${BASE_URL}/undefined`,
+		url: `${BASE_URL}/home`,
 		image: `${BASE_URL}/images/covers/home.png`,
 	},
 	projects: {
