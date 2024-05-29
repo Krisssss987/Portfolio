@@ -112,7 +112,7 @@ export default function SkillsMobile({ mobileSkillsContainerRef, mobileSkillsSec
 						containerStyles={{ width: "68vw", right: "0px", bottom: "0%" }}
 						svgStyles={{ height: "30vw" }}
 						textStyles={{ fontSize: "30vw" }}
-					/>
+					/> 
 				</div>
 			</div>
 
