@@ -1,7 +1,12 @@
 import PROJECTS from "./projects";
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 const metadata = {
-	
+	home: {
+		title: "Krishna Lokhande: Software Developer (Full Stack Developer)",
+		description: `Krishna Lokhande is a Software Developer.`,
+		url: `${BASE_URL}/home`,
+		image: `${BASE_URL}/images/covers/home.png`,
+	},
 	projects: {
 		title: "Krishna Lokhande: Projects",
 		description: "A list of projects, replicas, and experiments from Krishna Lokhande",
@@ -13,11 +18,6 @@ const metadata = {
 		description: "404 Page not found, please go home ",
 		url: `${BASE_URL}/lost`,
 		image: `${BASE_URL}/images/covers/not-found.png`,
-	},home: {
-		title: "Krishna Lokhande: Software Developer (Full Stack Developer)",
-		description: `Krishna Lokhande is a Software Developer.`,
-		url: `${BASE_URL}`,
-		image: `${BASE_URL}/images/covers/home.png`,
 	},
 	singleproject: ({ id }: { id: string }) => {
 		const project = PROJECTS.find((item) => item.id === id);
