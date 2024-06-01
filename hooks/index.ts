@@ -30,7 +30,7 @@ import useTransitionToDarkSection from "./useTransitionToDarkSection";
 // PAGE LOAD
 //---------------------------
 import initPageLoads from "./initialPagesLoad";
-const { useHomePageInit, useGenericPageInit, useSingleProjectPageInit, use404PageInit, useProjectsPageInit } =
+const { useHomePageInit, useGenericPageInit, useSingleProjectPageInit, useProjectsPageInit } =
 	initPageLoads;
 
 //---------------------------
@@ -56,7 +56,6 @@ export {
 	useHomePageInit,
 	useGenericPageInit,
 	useSingleProjectPageInit,
-	use404PageInit,
 	useFloatingBoxAnimation,
 	useExcellenceAnimation,
 	useProjectsPageInit,
